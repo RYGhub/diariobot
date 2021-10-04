@@ -1,0 +1,23 @@
+{
+  "name": "diariobot",
+  "version": "0.1.0",
+  "main": "src/backup.ts",
+  "scripts": {
+    "start": "ts-node src/backup.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/gravatar": "^1.8.3",
+    "@types/pg": "^8.6.1",
+    "discord.js": "^13.1.0",
+    "gravatar": "^1.8.2",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
